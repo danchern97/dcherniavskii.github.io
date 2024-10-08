@@ -1,115 +1,82 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{cherniavskiistream,
+  title={STREAM: Embodied Reasoning through Code Generation},
+  author={Cherniavskii, Daniil and Lippe, Phillip and Zadaianchuk, Andrii and Gavves, Efstratios},
+  booktitle={Multi-modal Foundation Model meets Embodied AI Workshop @ ICML},
+  year={2024},
+  google_scholar_id={Tyk-4Ss8FVUC},
+  html={https://openreview.net/pdf?id=smcIAakF2V},
+  preview={stream.png},
+  abbr={ICML},
+  abstract={Recent advancements in the reasoning and code generation abilities of Large Language Models (LLMs) have provided new perspectives on Embodied AI tasks, enhancing planning for both high-level control problems and low-level manipulation. However, efficiently informing the embodied agent about the environment in a concise and task-specific manner remains a challenge. Inspired by modular visual reasoning, we propose a novel approach that utilizes code generation to ground the planner in the environmental context and enable reasoning about past agent experiences. Our modular framework allows the code-generating LLM to extract and aggregate information from relevant observations via API calls to image understanding models, including flexible VLMs. To evaluate our approach, we choose Embodied Question Answering (EQA) as a target task and develop a procedure for synthetic data collection by utilizing the ground truth states of a simulator. Our framework demonstrates notable improvements over baseline methods.},
+  selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{tulchinskii2024intrinsic,
+  title={Intrinsic dimension estimation for robust detection of ai-generated texts},
+  author={Tulchinskii, Eduard and Kuznetsov, Kristian and Kushnareva, Laida and Cherniavskii, Daniil and Nikolenko, Sergey and Burnaev, Evgeny and Barannikov, Serguei and Piontkovskaya, Irina},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024},
+  google_scholar_id={UeHWp8X0CEIC},
+  abstract={Rapidly increasing quality of AI-generated content makes it difficult to distinguish between human and AI-generated texts, which may lead to undesirable consequences for society. Therefore, it becomes increasingly important to study the properties of human texts that are invariant over different text domains and varying proficiency of human writers, can be easily calculated for any language, and can robustly separate natural and AI-generated texts regardless of the generation model and sampling method. In this work, we propose such an invariant for human-written texts, namely the intrinsic dimensionality of the manifold underlying the set of embeddings for a given text sample. We show that the average intrinsic dimensionality of fluent texts in a natural language is hovering around the value 9 for several alphabet-based languages and around 7 for Chinese, while the average intrinsic dimensionality of AI-generated texts for each language is $\approx$ 1.5 lower, with a clear statistical separation between human-generated and AI-generated distributions. This property allows us to build a score-based artificial text detector. The proposed detector's accuracy is stable over text domains, generator models, and human writer proficiency levels, outperforming SOTA detectors in model-agnostic and cross-domain scenarios by a significant margin.},
+  arxiv={2306.04723},
+  abbr={NeurIPS},
+  selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{trofimov2023learning,
+  title={Learning topology-preserving data representations},
+  author={Trofimov, Ilya and Cherniavskii, Daniil and Tulchinskii, Eduard and Balabin, Nikita and Burnaev, Evgeny and Barannikov, Serguei},
+  booktitle={ICLR 2023 International Conference on Learning Representations},
+  volume={2023},
+  google_scholar_id={u-x6o8ySG0sC},
+  arxiv={2302.00136},
+  website={https://airi.net/articles/learning-topology-preserving-data-representations/},
   selected={true},
-  inspirehep_id = {3255}
+  year={2023},
+  preview={persistence.gif},
+  abbr={ICLR},
+  code={https://github.com/danchern97/RTD_AE},
+  abstract={We propose a method for learning topology-preserving data representations (dimen- sionality reduction). The method aims to provide topological similarity between the data manifold and its latent representation via enforcing the similarity in topo- logical features (clusters, loops, 2D voids, etc.) and their localization. The core of the method is the minimization of the Representation Topology Divergence (RTD) between original high-dimensional data and low-dimensional representation in latent space. RTD minimization provides closeness in topological features with strong theoretical guarantees. We develop a scheme for RTD differentiation and apply it as a loss term for the autoencoder. The proposed method “RTD-AE” better preserves the global structure and topology of the data manifold than state-of-the- art competitors as measured by linear correlation, triplet distance ranking accuracy, and Wasserstein distance between persistence barcodes.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{cherniavskii2022acceptability,
+  title={Acceptability Judgements via Examining the Topology of Attention Maps},
+  author={Cherniavskii, Daniil and Tulchinskii, Eduard and Mikhailov, Vladislav and Proskurina, Irina and Kushnareva, Laida and Artemova, Ekaterina and Barannikov, Serguei and Piontkovskaya, Irina and Piontkovski, Dmitri and Burnaev, Evgeny},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
+  pages={88--107},
+  year={2022},
+  google_scholar_id={qjMakFHDy7sC},
+  arxiv={2205.09630},
+  abbr={EMNLP},
+  abstract={The role of the attention mechanism in encoding linguistic knowledge has received special interest in NLP. However, the ability of the attention heads to judge the grammatical acceptability of a sentence has been underexplored. This paper approaches the paradigm of acceptability judgments with topological data analysis (TDA), showing that the geometric properties of the attention graph can be efficiently exploited for two standard practices in linguistics: binary judgments and linguistic minimal pairs. Topological features enhance the BERT-based acceptability classifier scores by 8%-24% on CoLA in three languages (English, Italian, and Swedish). By revealing the topological discrepancy between attention maps of minimal pairs, we achieve the human-level performance on the BLiMP benchmark, outperforming nine statistical and Transformer LM baselines. At the same time, TDA provides the foundation for analyzing the linguistic functions of attention heads and interpreting the correspondence between the graph features and grammatical phenomena.},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
+@inproceedings{Kushnareva_2021,
+   title={Artificial Text Detection via Examining the Topology of Attention Maps},
+   url={http://dx.doi.org/10.18653/v1/2021.emnlp-main.50},
+   DOI={10.18653/v1/2021.emnlp-main.50},
+   booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+   publisher={Association for Computational Linguistics},
+   author={Kushnareva*, Laida and Cherniavskii*, Daniil and Mikhailov*, Vladislav and Artemova, Ekaterina and Barannikov, Serguei and Bernstein, Alexander and Piontkovskaya, Irina and Piontkovski, Dmitri and Burnaev, Evgeny},
+   year={2021},
+   pages={635–649},
+   note={*equal contribution},
+   google_scholar_id={9yKSN-GCB0IC},
+   arxiv={2109.04825},
+   abbr={EMNLP},
+   abstract={The impressive capabilities of recent generative models to create texts that are challenging to distinguish from the human-written ones can be misused for generating fake news, product reviews, and even abusive content. Despite the prominent performance of existing methods for artificial text detection, they still lack interpretability and robustness towards unseen models. To this end, we propose three novel types of interpretable topological features for this task based on Topological Data Analysis (TDA) which is currently understudied in the field of NLP. We empirically show that the features derived from the BERT model outperform count- and neural-based baselines up to 10\% on three common datasets, and tend to be the most robust towards unseen GPT-style generation models as opposed to existing methods. The probing analysis of the features reveals their sensitivity to the surface and syntactic properties. The results demonstrate that TDA is a promising line with respect to NLP tasks, specifically the ones that incorporate surface and structural information.},
+   selected={true}
+  }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+
+
+
+
+
