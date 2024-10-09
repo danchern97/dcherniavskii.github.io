@@ -21,6 +21,14 @@
   },
   "work": [
     {
+      "name": "University of Amsterdam",
+      "position": "PhD Student",
+      "url": "https://www.uva.nl/",
+      "startDate": "2023-09-01",
+      "summary": "Reasoning, planning and code generation with applications to embodied agents.",
+      "highlights": []
+    },
+    {
       "name": "Artificial Intelligence Research Institute",
       "position": "Research Assistant",
       "url": "https://www.airi.net/",
@@ -62,7 +70,7 @@
       "location": "Moscow, Russia",
       "url": "https://new.skoltech.ru/en",
       "area": "Artificial Intelligence",
-      "studyType": "MSc",
+      "studyType": "Master of Science",
       "startDate": "2020-09-01",
       "endDate": "2022-06-01",
       "score": "3.9 / 4.0",
@@ -71,8 +79,7 @@
         "Reinforcement Learning",
         "Natural Language Processing",
         "Computer Vision",
-        "Optimization",
-        "..."
+        "Optimization"
       ]
     },
     {
@@ -80,14 +87,12 @@
       "location": "Moscow, Russia",
       "url": "https://mipt.ru/en",
       "area": "Physics and Applied Mathematics",
-      "studyType": "BSc",
+      "studyType": "Bachelor of Science",
       "startDate": "2015-09-01",
       "endDate": "2020-06-01",
       "courses": [
         "Theoretical Physics",
-        "Discrete Mathematics",
-        "Topology and Functional Analysis",
-        "..."
+        "Discrete Mathematics"
       ]
     }
   ],
@@ -115,14 +120,14 @@
     },
     {
       "name": "Acceptability Judgements via Examining the Topology of Attention Maps",
-      "publisher": "Findings of the Association for Computational Linguistics: EMNLP 2022",
+      "publisher": "EMNLP 2022",
       "releaseDate": "2022-07-01",
       "url": "https://arxiv.org/abs/2205.09630",
       "summary": "A special topological discrepancy measure between attention maps of correct and incorrect sentences can be used as a robust feature for binary grammatical acceptability judgments."
     },
     {
       "name": "Artificial Text Detection via Examining the Topology of Attention Maps",
-      "publisher": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "publisher": "EMNLP 2021",
       "releaseDate": "2021-07-01",
       "url": "https://arxiv.org/abs/2109.04825",
       "summary": "A robutst method for detecting AI-generated texts based on the topological features of attention maps."
