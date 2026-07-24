@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a 3rd-year PhD student at [QUVA](https://ivi.fnwi.uva.nl/quva/) lab at the [University of Amsterdam](https://www.uva.nl/en), supervised by [Assoc. Prof. Efstratios Gavves](https://www.egavves.com/) and [Andrii Zadaianchuk](https://zadaianchuk.github.io/). I was an intern at [Meta](https://www.meta.com/) and previously did research at [AIRI](https://airi.net/) on Transformer interpretability via topological methods.
+I'm a 3rd-year PhD student at [QUVA](https://ivi.fnwi.uva.nl/quva/) lab at the [University of Amsterdam](https://www.uva.nl/en), supervised by [Prof. Efstratios Gavves](https://www.egavves.com/) and [Andrii Zadaianchuk](https://zadaianchuk.github.io/). I was an intern at [Meta](https://www.meta.com/) and previously did research at [AIRI](https://airi.net/) on Transformer interpretability via topological methods.
 
 My recent research interests include **generative modelling**, **language models**, and **latent reasoning**.
 
