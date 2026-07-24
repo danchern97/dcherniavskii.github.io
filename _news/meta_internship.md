@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my internship at [Meta](https://www.meta.com/) in November 2025.
+I started my internship at [Meta FAIR](https://ai.meta.com/research/) in November 2025.
